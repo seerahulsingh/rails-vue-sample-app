@@ -28,6 +28,11 @@ group :development, :test do
   gem 'rspec-rails'
   # gem 'factory_bot'
   # gem 'database_cleaner'
+  gem 'pry'
+  gem 'pry-rails'
+  gem 'pry-rescue'
+  gem 'pry-stack_explorer'
+  gem 'pry-byebug'
 end
 
 group :development do
