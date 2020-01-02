@@ -1,0 +1,35 @@
+# Please keep AllCops, Bundler, Layout, Style, Metrics groups and then order cops
+# alphabetically
+#
+# References:
+#   * https://github.com/bbatsov/ruby-style-guide
+#   * https://rubocop.readthedocs.io/
+
+require:
+  - rubocop-rails
+
+AllCops:
+  DisplayCopNames: true
+  DisplayStyleGuide: true
+  ExtraDetails: false
+  TargetRubyVersion: 2.7
+  Exclude:
+    - 'Gemfile'
+    - 'Rakefile'
+    - 'node_modules/**/*'
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'bin/**/*'
+
+Rails:
+  Enabled: true
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Metrics/LineLength:
+  Enabled: true
+  Max: 95
+
+Style/Documentation:
+  Enabled: false
