@@ -20,6 +20,7 @@ AllCops:
     - 'db/**/*'
     - 'config/**/*'
     - 'bin/**/*'
+    - 'spec/**/*'
 
 Rails:
   Enabled: true
@@ -27,7 +28,7 @@ Rails:
 Style/FrozenStringLiteralComment:
   Enabled: false
 
-Metrics/LineLength:
+Layout/LineLength:
   Enabled: true
   Max: 95
 
