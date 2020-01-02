@@ -49,6 +49,7 @@ group :development do
   gem 'rubocop', '~> 0.78.0', require: false
   gem 'rubocop-rails', require: false
   gem 'spring-commands-rspec'
+  gem 'overcommit'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
