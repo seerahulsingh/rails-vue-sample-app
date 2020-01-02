@@ -2,7 +2,7 @@
   "name": "amiaccredited",
   "private": true,
   "scripts": {
-    "test": "jest"
+    "test": "jest --collect-coverage"
   },
   "dependencies": {
     "@rails/activestorage": "^6.0.0",
