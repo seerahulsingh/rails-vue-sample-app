@@ -9,6 +9,16 @@
 3. `$ overcommit --sign`
 4. `$ overcommit --sign pre-commit`
 
+# Webpack
+## dev-server
+`./bin/webpack-dev-server`
+
+## watcher
+`./bin/webpack --watch --colors --progress`
+
+## standalone build
+`./bin/webpack`
+
 # JS Testing
 Use Jest for javascript testing
 `$ yarn test`
