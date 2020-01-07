@@ -1,0 +1,14 @@
+PreCommit:
+  ALL:
+    problem_on_unmodified_line: warn
+    requires_files: true
+    required: false
+    quiet: false
+
+  RuboCop:
+    enabled: true
+    command: ['bundle', 'exec', 'rubocop']
+
+  CustomScript:
+    enabled: true
+    required_executable: '.git/hooks/old-hooks/pre-commit'

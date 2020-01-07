@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: amiaccredited_production
-  username: amiaccredited
+  username: test
   password: <%= ENV['AMIACCREDITED_DATABASE_PASSWORD'] %>

@@ -1,24 +1,29 @@
-# README
+# Requirements
+1. ruby 2.7
+2. node 12
+3. yarn
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Development Setup
+1. `$ bin/setup`
+2. `$ overcommit --install`
+3. `$ overcommit --sign`
+4. `$ overcommit --sign pre-commit`
 
-Things you may want to cover:
+# Webpack
+## dev-server
+`./bin/webpack-dev-server`
 
-* Ruby version
+## watcher
+`./bin/webpack --watch --colors --progress`
 
-* System dependencies
+## standalone build
+`./bin/webpack`
 
-* Configuration
+# JS Testing
+Use Jest for javascript testing
+`$ yarn test`
 
-* Database creation
+# Ruby Testing
+Use Rspec for ruby/rails testing
+`$ bundle exec rspec`
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
