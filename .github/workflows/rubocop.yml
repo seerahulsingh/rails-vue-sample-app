@@ -3,8 +3,10 @@ name: Rubocop
 on: [push]
 
 jobs:
-  build:
+  rubocop:
+    name: Rubocop Action
     runs-on: ubuntu-latest
+    timeout-minutes: 2
     steps:
     - uses: actions/checkout@v2
     - name: Rubocop Linter

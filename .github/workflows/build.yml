@@ -4,6 +4,7 @@ on: [pull_request]
 jobs:
   test:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     services:
       db:
         image: postgres:11
